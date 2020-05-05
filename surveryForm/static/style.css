@@ -1,0 +1,13 @@
+.container {
+    background-color: #ef53ef;
+    padding: 25px;
+    margin: 5px;
+    width: 300px;
+}
+
+form {
+    padding: 5px;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+

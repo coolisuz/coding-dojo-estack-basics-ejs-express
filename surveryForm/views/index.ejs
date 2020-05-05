@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = 'container'>
+        
+        <form action="/result" method="POST">
+            <label>Your Name: </label>
+            <input type="text" name = "name" required>
+            <br>
+
+            <label>Dojo Location: </label>
+            <select name="location" required>
+                <option value="San Jose">San Jose</option>
+                <option value="Mountain View">Mountain View</option>
+                <option value="Berkeley">Berkeley</option>
+            </select>
+            <br>
+            
+            <label>Favorite Language</label>
+            <select name="favLanguage" required>
+                <option value="js">JS</option>
+                <option value="python">Python</option>
+                <option value="ruby">Ruby</option>
+            </select>
+            <br>
+            
+            <label>Comment (optional)</label><br>
+            <textarea name="comment" cols="25" rows="4"></textarea>
+            <br>
+            <button>Submit</button>
+        </form>
+    </div>
+</body>
+</html>

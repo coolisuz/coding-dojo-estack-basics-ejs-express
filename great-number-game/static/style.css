@@ -1,0 +1,18 @@
+.container {
+    width: 500px; 
+    height: auto; 
+    text-align: center;
+    border: 2px solid dodgerblue;
+    background-color: dodgerblue;
+}
+
+#tooHigh, #tooLow{
+    background-color: yellowgreen;
+}
+
+.box {
+    background-color: red;
+    width: 35%;
+    margin: 50px;
+    margin-left: 170px;
+}

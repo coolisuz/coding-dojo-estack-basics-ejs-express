@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div {
+            width: 500px; 
+            height: 300px; 
+            background-color: dodgerblue;
+            text-align: center;
+            margin: 100px;
+            padding-top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Counter</h1>
+        <h3><%= counter%> times</h3>
+        <form action="/by-two" method='POST'>
+            <button>Add +2</button>
+        </form>
+        <form action="/reset" method='POST'>
+            <button>Reset</button>
+        </form>
+    </div>
+</body>
+</html>
